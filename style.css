@@ -5,8 +5,8 @@
 
 /* font */
 @font-face {
-    font-family: Brush Script MT;
-    src: url ('/chester-bennington/assets/font/BRUSHSCI.ttf');
+    font-family: brush script mt;
+    src: url('/assets/font/BRUSHSCI.ttf') format('truetype');
 }
 
 @font-face {
@@ -90,7 +90,7 @@ header {
 
 h1 {
     text-align: center;
-    font-family: Brush Script MT;
+    font-family: brush script mt;
 }
 
 .text3 {
