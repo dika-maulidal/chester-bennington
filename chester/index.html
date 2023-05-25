@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chester Benington</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Bootstrap" width="55"><b
+                    style="font-family:Arial, Helvetica, sans-serif;">LINKIN
+                    PARK.</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">explore</a>
+                    <a class="nav-link" href="#">popular</a>
+                    <a class="nav-link" href="#">contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero image start -->
+    <section class="hero">
+        <div class=" hero-text">
+            <h1 class="text">CHESTER</h1>
+            <h1 class="text">BENNINGTON</h1>
+        </div>
+        <div class="hero-poster">
+            <!-- <img src="assets/img/chester-poster.jpg" alt=""> -->
+        </div>
+    </section>
+    <!-- hero image end -->
+
+    <!-- profile start -->
+    <!-- <section class="profile">
+        <img src="assets/img/chester-profile.png" alt="" class="img-profle">
+    </section> -->
+    <!-- end profile -->
+    <script src="boostrap/js/bootstrap.min.js"></script>
+    <script>
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 13) {
+                nav.classList.add('bg-dark', 'shadow');
+            } else {
+                nav.classList.remove('bg-dark', 'shadow');
+            }
+        });
+    </script>
+</body>
+
+</html>

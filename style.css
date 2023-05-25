@@ -5,6 +5,11 @@
 
 /* font */
 @font-face {
+    font-family: myfont;
+    src: url('assets/font/ForesterRegular-gxra4.ttf');
+}
+
+@font-face {
     font-family: fontku;
     src: url('assets/font/linkinpark.ttf');
 }
@@ -85,7 +90,7 @@ header {
 
 h1 {
     text-align: center;
-    font-family: brush script mt;
+    font-family: myfont;
 }
 
 .text3 {
@@ -802,7 +807,7 @@ figcaption {
 }
 
 .content-footer {
-    font-family: brush script mt;
+    font-family: myfont;
     color: white;
     font-size: 40px;
     font-weight: 700;

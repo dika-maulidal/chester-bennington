@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font */
+@font-face {
+    font-family: Brush Script MT;
+    src: url ('font/BRUSHSCI.ttf');
+}
+
+/* navbar start */
+.navbar {
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.nav-link {
+    margin-right: 40px;
+}
+
+nav {
+    transition: 0.7s;
+}
+
+/* hover */
+/* dekstop version */
+@media (min-width: 992px) {
+
+    /* hover navbar */
+    .navbar .navbar-nav .nav-link {
+        position: relative;
+    }
+
+    .navbar .navbar-nav .nav-link::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        content: '';
+        background-color: white;
+        width: 0%;
+        height: 2px;
+        border-radius: 3px;
+        transition: all 0.3s;
+    }
+
+    .navbar .navbar-nav .nav-link:hover::after {
+        width: 50%;
+    }
+}
+
+/* end hover */
+
+/* navbar end */
+
+/* hero image */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url("assets/img/chester-hero.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-110%, -250%);
+    color: white;
+    font-family: Brush Script MT;
+    z-index: ;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: 550;
+    margin-bottom: -15px;
+}
+
+.hero-poster {}
+
+/* responsive hero image */
+@media (max-width: 530px) {
+    .hero-poster img {
+        display: none;
+    }
+
+    .hero-text .text {
+        font-size: 40px;
+        transform: translate(30%, -100%);
+    }
+}
+
+@media (max-width: 1115px) {
+    .hero-poster img {
+        width: 28%;
+        float: right;
+        margin-top: 13%;
+        margin-right: 10%;
+    }
+
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 48%;
+        left: 42%;
+        transform: translate(-110%, -250%);
+        color: white;
+        font-family: Brush Script MT;
+        z-index: 4;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 40%;
+        left: 48%;
+        transform: translate(-110%, -250%);
+        color: white;
+        font-family: Brush Script MT;
+        z-index: 4;
+    }
+
+    .hero-text .text {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 881px) {
+    .hero-poster img {
+        width: 40%;
+        margin: 400px 30% 0;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-text .text {
+        font-size: 40px;
+        margin-bottom: -8px;
+    }
+}
+
+@media (max-width: 667px) {
+    .hero-poster img {
+        width: 40%;
+        margin: 400px 30% 0;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-text .text {
+        font-size: 30px;
+        margin-bottom: -8px;
+    }
+}
+
+/* hero image end */
+
+/* profile */
+section.profile {
+    background-color: black;
+}
+
+.img-profile {
+    float: right;
+}
