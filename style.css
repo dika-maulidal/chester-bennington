@@ -6,7 +6,7 @@
 /* font */
 @font-face {
     font-family: Brush Script MT;
-    src: url ('assets/font/BRUSHSCI.ttf');
+    src: url ('/chester-bennington/assets/font/BRUSHSCI.ttf');
 }
 
 @font-face {
@@ -837,7 +837,7 @@ figcaption {
 
     .content-footer {
         font-size: 21px;
-        margin-top: 220px;
+        margin-top: 240px;
     }
 
     .copyright {
@@ -847,14 +847,21 @@ figcaption {
 
 @media only screen and (min-width: 600px) {
     .content-footer {
-        margin-top: 200px;
+        margin-top: 240px;
         font-size: 33px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .content-footer {
-        margin-top: 220px;
+        margin-top: 240px;
+        font-size: 33px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-footer {
+        margin-top: 265px;
         font-size: 33px;
     }
 }
