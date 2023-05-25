@@ -6,7 +6,14 @@
 /* font */
 @font-face {
     font-family: brush script mt;
-    src: url('/assets/font/BRUSHSCI.ttf') format('truetype');
+    src: url('/assets/font/BRS.ttf') format('truetype'),
+        url('/assets/font/BRSHSCRP.ttf') format('truetype'),
+        url('/assets/font/BRUSH.ttf') format('truetype'),
+        url('/assets/font/brush\ script.ttf') format('truetype'),
+        url('/assets/font/Brush\ Script\ Regular.ttf') format('truetype'),
+        url('/assets/font/brush_sc.ttf') format('truetype'),
+        url('/assets/font/BRUSHSCI.ttf') format('truetype'),
+        url('/assets/font/BrushScript.ttf'), format('truetype');
 }
 
 @font-face {
